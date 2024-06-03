@@ -1,0 +1,76 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "country": {
+            "name": "United States",
+            "code": "US",
+            "region": {
+                "name": "North America",
+                "code": "NA"
+            }
+        }
+    },
+    "contact": {
+        "email": "john.doe@example.com",
+        "phones": [
+            {
+                "type": "home",
+                "number": "555-1234"
+            },
+            {
+                "type": "work",
+                "number": "555-5678"
+            }
+        ]
+    },
+    "employment": {
+        "company": {
+            "name": "Tech Solutions",
+            "position": "Software Engineer",
+            "department": {
+                "name": "Development",
+                "location": {
+                    "building": "HQ",
+                    "floor": 5,
+                    "office": {
+                        "number": 501,
+                        "extension": "1234"
+                    }
+                }
+            }
+        }
+    },
+    "skills": [
+        {
+            "name": "Python",
+            "proficiency": "advanced",
+            "projects": [
+                {
+                    "name": "Project A",
+                    "description": "A web application built with Django.",
+                    "duration": "6 months"
+                },
+                {
+                    "name": "Project B",
+                    "description": "A data analysis tool built with Pandas.",
+                    "duration": "3 months"
+                }
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "proficiency": "intermediate",
+            "projects": [
+                {
+                    "name": "Project C",
+                    "description": "A single-page application built with React.",
+                    "duration": "4 months"
+                }
+            ]
+        }
+    ]
+}

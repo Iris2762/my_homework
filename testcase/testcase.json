@@ -1,0 +1,25 @@
+{
+    "oranges":{
+        "mandarin":{
+            "clementine":null,
+            "tangerine":"cheap & juicy!"
+        }
+    },
+    "apples":{
+        "gala":null,
+        "pink lady":null
+    },
+    "education": [
+        {
+            "degree": "Bachelor's",
+            "major": "Computer Science",
+            "year": 2012
+        },
+        {
+            "degree": "Master's",
+            "major": "Software Engineering",
+            "year": 2014
+        }
+    ],
+    "hobbies": ["reading", "traveling", "swimming"]
+}
