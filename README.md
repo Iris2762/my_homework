@@ -2,13 +2,13 @@
 
 为了实现在命令行输入指令fje -f <file_path> -s <style> -I <icon family>的功能，还需要进行以下操作
 1）	在fje.py所在的目录下编写fje.bat文件（windows操作系统中的实现方法），fje.bat文件中内容如下：
- 
+ @echo off
+python fje.py %*
 2）	然后将fje.bat所在目录的路径存入环境变量中的系统变量
- 
  
 3）	修改cmd的属性，选择dejaVu Sans Mono字体，保存修改。（原因是不同字体的特殊符号宽度可能不一样，如果要实现题目要求的打印效果，则需要选择该cmd字体）
 不关闭当前cmd，继续执行以下操作
- 
+
 4）	然后再在cmd中运行指令：
 fje -f <file_path> -s <style> -I <icon family>
 其中<file_path>可以为json文件的相对路径或者绝对路径，如果是相对路径，则必须是fje.bat文件所在目录内的路径。
